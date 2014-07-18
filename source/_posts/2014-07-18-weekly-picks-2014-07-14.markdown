@@ -1,0 +1,133 @@
+---
+layout: post
+title: "Weekly Picks: 2014-07-14"
+date: 2014-07-18 09:04
+comments: true
+categories: weekly_picks
+---
+
+I’m trying something new. Posting my evernote web clips from the past week.
+We’ll see if I can do it every week. I’m going to give it my best.
+
+### Amazon Cognito
+http://aws.amazon.com/cognito/
+
+This looks like Amazon play at being a SSO as a Service. I always thought they
+were going to try to merge it in with IAM, but I can see why they didn’t. They
+are very different things. The cool thing is that you can store and sync across
+devices apparently. I don’t know much about the service yet, but definitely plan
+on checking it out soon.
+
+### Amazon Zocalo
+http://aws.amazon.com/zocalo/
+
+Amazon’s second offering this week. It looks like it’s they’re offering to
+compete with Google Drive and potentially dropbox. Seems like a decent
+multi-user real time document contribution service. I kind of doubt that I’ll be
+using it any time soon though.
+
+### XDomain
+https://github.com/jpillora/xdomain
+
+Looks like a way to get around CORs purely in the browser. Have no idea how it
+works, but it caught my eye,
+
+### Coreutils View
+https://github.com/Xfennec/cv
+
+This was pretty cool. It adds progress monitoring to a few coreutil commands
+(cp, mv, dd, tar, gzip, cat, etc). Going to give this a show. You run the
+command after you run the other commands though. I wonder if you could integrate
+it in the tmux bar?
+
+### Postgres 9.5 - IMPORT FOREIGN SCHEMA
+http://michael.otacoo.com/postgresql-2/postgres-9-5-feature-highlight-import-foreign-schema/
+
+Just want it sounds like. Create a table from a foriegn schema.
+
+### New Raspberry PI (model B+)
+http://www.raspberrypi.org/introducing-raspberry-pi-model-b-plus/
+
+Seems neat. I don’t have a raspberry pi, but I’ve been considering one to run a
+monitor a company dashboard locally. Probably overkill, but who cares :).
+
+TLDR;:
+  * More GPIO
+  * More USB
+  * Micro SD
+  * Lower power consumption
+  * Better audio
+  * Neater form factor
+
+### Polyglot
+https://github.com/sausheong/polyglot
+
+I have no idea what this is really supposed to be. I gave it a very brief scan.
+Seems like it’s trying to be a single web framework to run multiple programming
+languages under. No idea how that’s supposed to work. Sounds cool though. I’ll
+probably give it a look given all the SOA related things I’ve been doing lately.
+
+### Bitly: Scaling to 6 billion clicks a month
+http://highscalability.com/blog/2014/7/14/bitly-lessons-learned-building-a-distributed-system-that-han.html
+http://devslovebacon.com/conferences/bacon-2014/talks/lessons-learned-building-distributed-systems-at-bitly
+
+Overview about lessons learned at Bitly. I need to give the talk (the second
+link) a good watch this weekend.
+
+### Algorithm: The Hacker Movie
+http://www.thehackermovie.com/
+
+Do you even need to ask? Cap’n Crunch liked it. Of course I’m going to watch it.
+
+### New Parallella boards
+http://www.parallella.org/2014/07/14/new-parallella-product-offerings/
+
+If a new Raspberry PI wasn’t enough, there are new Parallella’s as well.
+Probably won’t buy one for a bit, but interested. One of them is actually touted
+as be a “Desktop” personal computer. I call bullshit given the spec, but what
+the heck, who knows.
+
+### SQLite: Small. Fast. Reliable.
+http://charlesleifer.com/blog/sqlite-small-fast-reliable-choose-any-three-/
+
+Nice little article reminding us that SQLite is actually a cool little DB.
+
+### Google’s Project Zero
+http://googleonlinesecurity.blogspot.com/2014/07/announcing-project-zero.html
+
+Google’s going to help keep us all safe on the internet now. I’m not sure
+exactly what’s going on here. I think they’re just putting a bunch of security
+researchers in a room and trying to beat black hats to zero day vulnerabilities.
+
+### iTerm 2 (2.0)_
+http://www.iterm2.com/news.html
+
+Version 2.0 of iTerm 2 (is there an echo?) dropped this week. I’ve already used
+triggers to try to help me stop typing full commands that I have aliases for.
+I’m also going to give a look at the tmux integration. I’ll probably just stick
+with my vanilla tmux, but who knows. It could be cool.
+
+### The Tao of Programming
+http://www.mit.edu/~xela/tao.html
+
+Totally forgot about this. Always a classic though. If you’ve never read it, I
+highly recommend it. It’s worth it.
+
+
+### Why We Use OCaml
+http://tech.esper.com/2014/07/15/why-we-use-ocaml/
+
+I know next to nothing about OCaml, but after reading this, I know a little more
+than I did.
+
+### Official Google Analytics iPhone App
+https://itunes.apple.com/us/app/google-analytics/id881599038?mt=8
+
+Looks pretty slick. If I used Google Analytics more, I’d be all over it. Soon
+enough I’ll pull it down and try it.
+
+### Learn facts while pulling code changes
+https://coderwall.com/p/hvfvva
+
+A colleague of mine at AlphaSights wrote an awesome pro tip on coderwall. Check
+it out and learn something with every pull.
