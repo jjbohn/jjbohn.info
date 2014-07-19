@@ -25,6 +25,7 @@ few of the concepts and have played around a bunch, but I have yet to really dig
 in all the way and build anything of any real use.
 
 Here are few more reasons:
+
   * There are a few projects that I’ll be making this year that sound like the
   could be a good fit for Elixir (given what I’ve heard).
   * Modern tooling that sits on the Erlang VM. Gives me an opportunity to
