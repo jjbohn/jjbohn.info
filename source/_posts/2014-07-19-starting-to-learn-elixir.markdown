@@ -4,6 +4,7 @@ title: "Starting to Learn Elixir"
 date: 2014-07-19 08:51
 comments: true
 categories: elixir, programming
+description: “I’m starting to learn Elixir. Come see what happens”
 ---
 
 It’s been a long time since I’ve really dug into a new programming language. I
