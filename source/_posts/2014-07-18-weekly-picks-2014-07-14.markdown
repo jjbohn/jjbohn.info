@@ -4,8 +4,7 @@ title: "Weekly Picks: 2014-07-14"
 date: 2014-07-18 09:04
 comments: true
 categories: weekly_picks
-description: “The articles in sofware development that I found interesting the
-week of 2014-07-14”
+description: “The articles in sofware development that I found interesting the week of 2014-07-14”
 ---
 
 I’m trying something new. Posting my evernote web clips from the past week.
