@@ -1,0 +1,200 @@
+---
+layout: post
+title: "Weekly Picks 2014-07-21"
+date: 2014-07-27 20:07:28 -0500
+comments: true
+categories: [weekly_picks]
+description: “The articles related to software development that I found interesting the week of 2014-07-21”
+---
+
+Holy crap. There were a lot of cool things I saw this week. I might not be as
+complete as usual in my descriptions, but trust me, click through and check
+everything out.
+
+### Andrew Sorensen OSCON 2014 Keynote: “The Concert Programmer”
+https://www.youtube.com/watch?v=yY1FSsUV-8c
+
+Answer Sorensen live coding a song (in a Lisp). This was really cool. Whil I
+don’t think it’s a great a seeing a really good musician play, it shows what
+tomorrow’s  concerto might look like. Really fricking cool.
+
+### Rainbow Stream
+https://github.com/DTVD/rainbowstream
+
+This is the best terminal based Twitter client I have ever seen. You get real
+time streams, composition, search, etc. Plus images. Yes, images... from
+twitter... in the terminal.
+
+### Emacs & Vim — Martin Klepsch
+http://www.martinklepsch.org/posts/emacs-and-vim.html
+
+A four year vim user switches to emacs in with evil-mode. I’ve actually been
+considering this myself. I love vim for its key bindings, but envy emacs lisp.
+
+### CoreOS Stable Release
+https://coreos.com/blog/stable-release/
+
+Stable CoreOS!!! This might be my top pick from the week. I think CoreOS is
+going to be one of the most important web technologies over the next decade.
+Very excited.
+
+### Trello is now part of Trello, Inc.
+http://blog.trello.com/trello-is-now-trello-inc/
+
+Was waiting for this one. I think Trello is probably a much more recognizable
+name than Fog Creek.
+
+### mitmproxy: a man-in-the-middle proxy
+http://mitmproxy.org/
+
+Very cool little proxy. It lets you intercept, modify and most importantly
+replace and save HTTP/S traffic.
+
+### Blazing Fast HTML
+http://elm-lang.org/blog/Blazing-Fast-Html.elm
+
+I never used elm. To be honest, I don’t totally remember if I’d even heard of
+it. That said, it’s fast. Really fast. Thanks to it’s use of a virtual DOM. This
+is a concept that has been picking up steam lately. At this point. I think it’s
+a good idea.
+
+### mandelruby
+https://github.com/nicklink483/mandelruby
+
+A Mandelbrot fractal viewer written in Ruby and displays in the console. Enough
+said.
+
+### IBM: The Economic Value of Rapid Response Time
+http://www.vm.ibm.com/devpages/jelliott/evrrt.html
+
+A paper from 1982 describing the value of performance. It’s a short read with
+good info (and graphs).
+
+### Collection Pipeline
+http://martinfowler.com/articles/collection-pipeline/
+
+Marting Fowler documented a new pattern. It’s the idea of taking a collection
+and piping it through a series of commands.
+
+An example from the command line:
+
+```
+grep -l ‘nosql’ bliki/entries/* | xargs wc -w | sort -nr
+```
+
+An example from Ruby:
+
+```ruby
+some_articles
+  .select{|a| a.tags.include?(:nosql)}
+  .sort_by{|a| a.words}
+  .take(3)
+```
+
+### tmuxomatic
+https://github.com/oxidane/tmuxomatic
+
+Automated window layout and session management for tmux, with a simple
+definition file that is powerful and flexible. Aka: a tmux manager that let’s
+you do crazy things and write configuration files that can look like:
+
+```
+window an_example         # <-- A new window begins like this, spaces in names are acceptable
+
+HHHOOOOOVVVVXXXXAAAA      # <-- This is a windowgram, it defines shapes and positions of panes
+HHHOOOOOTTTTXXXXAAAA      # <-- You make your own, any size and arrangement, 62 panes maximum
+HHHqqqqqqqqkkkkkAAAA
+jjjqqqqqqqqkkkkkAAAA
+jjjqqqqqqqqkkkkk1234
+jjjqqqqqqqqkkkkk5678
+0000llllllllllaaaaaa
+tmuxllllllllllaaaaaa
+
+  foc                     # <-- Only 3 three-letter commands to remember: Focus, Directory, Run
+  dir ~                   # <-- An unlinked command becomes the default for all following panes
+a run figlet "a"          # <-- Here is a linked command to print a large "a" on pane a
+q run figlet "q"
+q foc
+A run figlet "A"
+```
+
+Cr-A-Zy. And awesome.
+
+### The web request is a scary place
+http://www.jeffield.net/2013/11/the-web-request-is-a-scary-place/
+
+An interesting take instagram’s talk on how they scaled messaging.
+
+### An Illustrated Book of Bad Arguments
+http://jjbohn.info/blog/2014/07/21/an-illustrated-book-of-bad-arguments/
+
+This is my [new book club book](http://jjbohn.info/blog/2014/07/21/an-illustrated-book-of-bad-arguments/)
+and looks great. I made a [post specifically](http://jjbohn.info/blog/2014/07/21/an-illustrated-book-of-bad-arguments/)
+for this pick. Long story short, this books looks really great and you should
+read it with me. I’m posting my first notes on the book this week.
+
+### Top Level Telecommunications: New phones aboard Air Force One
+http://electrospaces.blogspot.com/2014/07/new-phones-aboard-air-force-one.html
+
+Phones. Air Force One. LEDs that change color to denote whether the line is
+secure. That’s stuff from the movies. No. It’s not. It’s on Air Force One.
+/Obama drops the mic, walks away. You just got served.
+
+### Virtual AGC
+http://www.ibiblio.org/apollo/
+
+Simulation of the Apoloo guidance systems. And source code. Of course I picked
+it.
+
+### Level-Up Your Machine Learning
+http://metacademy.org/roadmaps/cjrd/level-up-your-ml
+
+Want to learn machine learning? Don’t know where to start? This is a very well
+thought out guide containing a handful of recommendations on what book to read
+when.
+
+### DNS.watch
+https://dns.watch/index
+
+Fast, free and uncensored. (And my new DNS servers.) Seriously, I noticed the
+speed improvement.
+
+### Calling All Hackers: Help Us Build an Open Wireless Router
+https://www.eff.org/deeplinks/2014/07/building-open-wireless-router
+
+Want to help EFF build an open wireless router? Here’s your chance.
+
+### etcd: the Not-so-Secret Sauce in Google’s Kubernetes and Pivotal’s Cloud Foundry
+http://www.datacenterknowledge.com/archives/2014/07/16/etcd-secret-sauce-googles-kubernetes-pivotals-cloud-foundry/
+
+Again, I’m a CoreOS fanboy. etcd is essential. Configuration management for
+awesomeness.
+
+### How Instagram Feeds Work: Celery and RabbitMQ
+http://blogs.vmware.com/vfabric/2013/04/how-instagram-feeds-work-celery-and-rabbitmq.html
+
+Related to the earlier post on Instagram. Another good read on scaling big.
+Really big.
+
+### https://github.com/madbence/node-drawille-canvas
+https://github.com/madbence/node-drawille-canvas
+
+HTML5 canvas for your terminal. Another amazin terminal thing. I want d3 in my
+terminal now :).
+
+### Hacking POS Terminal for Fun and Non-profit
+http://h30499.www3.hp.com/t5/HP-Security-Research-Blog/Hacking-POS-Terminal-for-Fun-and-Non-profit/ba-p/6540620
+
+Restaurant POS systems have always been a secret obsession of mine. They look
+like hell and it seems like there is so much room for improvement. This is a
+cool article on what’s going on under the hood.
+
+### Escher in language—The algorithmic mirror
+https://github.com/gocircuit/escher
+
+Escher is a programming language for everything. It can naturally represent both process and data, while being simpler than a calculator grammar.
+
+That’s what they say. I gave it a really quick look, I have no idea what’s going
+on. I think it’s mostly because I just looked at the graphs. I’ll give it
+another look soon to see if it’s something that I can use. Whatever it is, it
+looks epic.
