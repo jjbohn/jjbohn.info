@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "Single Responsibility Principle: A SOLID Week"
+title: "Single Responsibility Principle in Ruby"
 date: 2014-07-28 08:02:54 -0500
 comments: true
-categories: [solid, ruby, intermediate, object design]
+categories: [solid, ruby, intermediate, object design, single responsibility principle, srp]
+description: “A look at the Single Responsibility Principle in Ruby”
 ---
 
 The Single Responsibility is often written as “A class should have only a single responsibility.” Well that’s a bit general. A definition like that is a bit hard to reason about. It’s not very actionable either. There’s no sense of how to define responsibilities. Nothing that really gives you any hints on where to draw boundaries. Taken to the extreme, it actually lead to overly complex systems. There is such a thing as too much decomposition.
