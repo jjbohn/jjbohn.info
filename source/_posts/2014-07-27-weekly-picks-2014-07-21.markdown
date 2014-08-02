@@ -194,7 +194,31 @@ cool article on what’s going on under the hood.
 
 Escher is a programming language for everything. It can naturally represent both process and data, while being simpler than a calculator grammar.
 
-That’s what they say. I gave it a really quick look, I have no idea what’s going
-on. I think it’s mostly because I just looked at the graphs. I’ll give it
-another look soon to see if it’s something that I can use. Whatever it is, it
-looks epic.
+## Get your week picks delivered
+That’s all I’ve got for this week. Check back next week for my more picks or sign up below and get them straight to your inbox:
+
+<link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+	#mc_embed_signup{background:#fff !important; clear:left; font:14px Helvetica,Arial,sans-serif; }
+</style>
+<div id="mc_embed_signup">
+<form action="//jjbohn.us1.list-manage.com/subscribe/post?u=60ff1f06e1ad5abc0846226a9&amp;id=0f83623d5b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+<div class="mc-field-group">
+	<label for="mce-EMAIL">Email Address </label>
+	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+</div>
+	<div id="mce-responses" class="clear">
+		<div class="response" id="mce-error-response" style="display:none"></div>
+		<div class="response" id="mce-success-response" style="display:none"></div>
+	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;"><input type="text" name="b_60ff1f06e1ad5abc0846226a9_0f83623d5b" tabindex="-1" value=""></div>
+    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+</form>
+</div>
+<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+<script type='text/javascript'>
+(function($) {
+window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';
+}(jQuery));
+var $mcj = jQuery.noConflict(true);
+</script>

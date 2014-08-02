@@ -1,0 +1,100 @@
+---
+layout: post
+title: "Weekly Picks 2014-08-02"
+date: 2014-08-02 06:45:57 -0500
+comments: true
+categories: [weekly_picks]
+description: “Articles that I found intereseting this week including Hashicorp Terraform, Facebook Flux, Go Lang and Seven Concurrency Models in Seven Weeks”
+---
+There wasn’t a whole lot that caught my eye this week which honestly, makes sense since [last week](http://jjbohn.info/blog/2014/07/27/weekly-picks-2014-07-21/) had so much great stuff.
+
+### Go Concurrency Patterns: Context
+[http://blog.golang.org/context](http://bit.ly/1qRa52A)
+
+This is an intro to a package Google made for go that
+> makes it easy to pass request-scoped values, cancelation signals, and deadlines across API boundaries to all the goroutines involved in handling a request.
+
+Worth checking out. It also reminded me that I really want to read [Seven Concurrency Models in Seven Weeks](http://amzn.to/1kspAew). That’s probably going to be the next book club book. It looks awesome!
+[![Seven Concurrency Models in Seven Weeks Cover](http://ecx.images-amazon.com/images/I/41ezh1bNKPL.jpg)](http://amzn.to/1kspAew)
+
+## You Are Not Late
+[https://medium.com/message/you-are-not-late-b3d76f963142](http://bit.ly/1oicIH1)
+
+I found this article to be really inspiring. I often get it into my head that all the startup low hanging fruit has been plucked. That I’m too late to the ball game, so it’s not worth playing. In this article the author (Kevin Kelly from Wired) defies that and puts out some great arguments on how the internet is still a wide open frontier and now is the best time to start something on the internet.
+
+## Facebook Flux
+[https://github.com/facebook/flux](http://bit.ly/1uSEHlL)
+
+Not to be confused with [f.lux](http://bit.ly/1llZzIL). Facebook flux is a framework/pattern for React that uses unidirectional data flow. If you’re into [React](http://bit.ly/XsdJTa) or looking for a new Javascript framework, this might be right up your alley. It seems like you could make certain things saner if you follow this unidirectional model.
+```
+Views ---> (actions) ----> Dispatcher ---> (registered callback) ---> Stores -------+
+Ʌ                                                                                   |
+|                                                                                   V
++-- (Controller-Views "change" event handlers) ---- (Stores emit "change" events) --+
+```
+
+## Terraform
+[http://www.terraform.io/](http://bit.ly/1o0Yls6)
+
+Terraform is a new offering from [HashiCorp](http://bit.ly/1u9e5ZP) (the makers of vagrant). Terraform looks like a library for defining resources in your infrastructure and applying those definitions on the cloud provider of your choice. If you’re familiar with [Amazon’s  Cloudformation](http://amzn.to/1zGQxOQ), Terraform will look familiar to you. Next time I’m building something from scratch on AWS, there’s a good chance I’ll look at this as opposed to using Cloudformation again.
+
+
+## New GitHub Issues
+[https://github.com/blog/1866-the-new-github-issues](http://bit.ly/1nWiqiv)
+
+If you’re a software developer and you use GitHub, you noticed that Issues and Pull Requests look a whole lot different this week. There’s things I like about the change (mostly the upgraded search functionality), but I hate that my hotkeys are gone. I find it really hard to get around GitHub Issues now. Here’s a [“conversation”](http://bit.ly/1oit522) I had with Zach Holman on the topic. Hopefully it’s something they can bring back. I’ll obviously keep using pull requests, but I might have to use something else for issues.
+
+### {API}Search
+[http://apis.io/](http://bit.ly/1oitgu4)
+
+A search engine for finding APIs. Seems pretty basic but it does the trick.
+
+### The Codeless Code: Don’t Help
+[http://thecodelesscode.com/case/155](http://bit.ly/1lm3fdw)
+
+Funny little fable. I would recommending checking out more from this site, there’s some good geeky stuff in there.
+
+### Stuff that every programmer should know: Data Visualization
+[http://c0de517e.blogspot.com/2014/06/stuff-that-every-programmer-should-know.html](http://bit.ly/1m8EW2J)
+
+I’m pretty terrible with visualizations. I can tell what looks good and what looks bad to me, but actually creating visualizations that I think look good is just beyond my reach at this point. I’m trying to get better though. This article has some good tips for guys like me.
+
+### Eloquent Javascript: Second Edition
+[http://eloquentjavascript.net/](http://bit.ly/WSG9WB)
+
+An updated edition of Eloquent Javascript is available to read online for free (Creative Commons attribution-noncommercial license). I haven’t had the chance to read it yet, but I’m hoping to fit it in over the next couple of months. I haven’t been doing a whole lot of Javascript lately so it’s not a burning priority.
+
+### Seven Useful ActiveModel Validators
+[http://viget.com/extend/seven-useful-activemodel-validators](http://bit.ly/1qCxS1s)
+
+Good little article that contains source code for some useful ActiveModel validators.
+
+
+## Get your week picks delivered
+That’s all I’ve got for this week. Check back next week for my more picks or sign up below and get them straight to your inbox:
+
+<link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+	#mc_embed_signup{background:#fff !important; clear:left; font:14px Helvetica,Arial,sans-serif; }
+</style>
+<div id="mc_embed_signup">
+<form action="//jjbohn.us1.list-manage.com/subscribe/post?u=60ff1f06e1ad5abc0846226a9&amp;id=0f83623d5b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+<div class="mc-field-group">
+	<label for="mce-EMAIL">Email Address </label>
+	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+</div>
+	<div id="mce-responses" class="clear">
+		<div class="response" id="mce-error-response" style="display:none"></div>
+		<div class="response" id="mce-success-response" style="display:none"></div>
+	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;"><input type="text" name="b_60ff1f06e1ad5abc0846226a9_0f83623d5b" tabindex="-1" value=""></div>
+    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+</form>
+</div>
+<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+<script type='text/javascript'>
+(function($) {
+window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';
+}(jQuery));
+var $mcj = jQuery.noConflict(true);
+</script>
